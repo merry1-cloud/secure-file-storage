@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "password": "[test-only]",
+  "small": {
+    "expectedSha256": "02b3b5ee65f6044a7d05d2da38a0c7bcb70c265b34e7067a88b0ec4bc2e8a5cc",
+    "downloaded": {
+      "file": "D:\\B23041403严凯嘉\\大四\\PCD\\artifacts\\report-evidence\\t04-downloads\\t04-imported-small.txt",
+      "sha256": "02b3b5ee65f6044a7d05d2da38a0c7bcb70c265b34e7067a88b0ec4bc2e8a5cc"
+    },
+    "size": 36
+  },
+  "large": {
+    "expectedSha256": "3a05d155df5d3451bc6d346eb3c8146d1a6394526d78ad271619bface8b00663",
+    "downloaded": {
+      "file": "D:\\B23041403严凯嘉\\大四\\PCD\\artifacts\\report-evidence\\t04-downloads\\t04-drag-large.bin",
+      "sha256": "3a05d155df5d3451bc6d346eb3c8146d1a6394526d78ad271619bface8b00663"
+    },
+    "size": 4206649,
+    "chunks": 2
+  },
+  "screenshots": [
+    "docs/report-assets/screenshots/t04-dragdrop-encrypted.png",
+    "docs/report-assets/screenshots/t04-sfv-imported.png",
+    "docs/report-assets/screenshots/t04-imported-decrypt.png",
+    "docs/report-assets/screenshots/t04-large-decrypt.png"
+  ],
+  "note": "Decryption is initiated from the table/DecryptWizard, not by dropping a normal file."
+}

@@ -1,0 +1,26 @@
+appId: com.pcd.securefilevault
+productName: SecureFile Vault
+copyright: Copyright © 2026 SecureFile Vault
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - electron/**/*
+  - build/icon.ico
+  - package.json
+asar: true
+npmRebuild: false
+compression: normal
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  icon: build/icon.ico
+  requestedExecutionLevel: asInvoker
+  # 课程演示不做代码签名；关闭 PE 资源编辑，避免 Windows 创建符号链接权限不足时构建失败。
+  # 便携 exe 的图标仍由 NSIS 包装器设置，窗口图标由 BrowserWindow 设置。
+  signAndEditExecutable: false
+portable:
+  artifactName: SecureFileVault-${version}-portable.exe

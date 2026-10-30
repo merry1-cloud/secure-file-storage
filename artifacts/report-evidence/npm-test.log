@@ -1,0 +1,17 @@
+
+> secure-file-vault@0.1.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m<project>[39m
+
+ [32m✓[39m tests/unit/crypto.kat.test.ts [2m([22m[2m11 tests[22m[2m)[22m[90m 275[2mms[22m[39m
+ [32m✓[39m tests/unit/vaultFlow.test.ts [2m([22m[2m13 tests[22m[2m)[22m[33m 362[2mms[22m[39m
+ [32m✓[39m tests/unit/benchmark.test.ts [2m([22m[2m1 test[22m[2m)[22m[33m 1170[2mms[22m[39m
+   [33m[2m✓[22m[39m 性能测试核心流程[2m > [22m1 MB 基础基准可完成并返回结果 [33m1169[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m25 passed[39m[22m[90m (25)[39m
+[2m   Start at [22m 11:42:14
+[2m   Duration [22m 5.58s[2m (transform 387ms, setup 578ms, collect 7.36s, tests 1.81s, environment 0ms, prepare 925ms)[22m
+
